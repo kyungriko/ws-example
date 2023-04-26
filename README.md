@@ -5,3 +5,6 @@
 
 셀레니움 이용해서 크롤링
 참고 사이트 : https://narup.tistory.com/245
+
+- react
+  localhost:5000 으로 호출
