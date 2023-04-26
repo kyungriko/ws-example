@@ -4,7 +4,9 @@
 const { Builder, By, Key, until } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
-const reulstFileName = "result.txt";
+const reulstFileName = "result.json";
+const dfd = require("danfojs-node");
+const tf = require("@tensorflow/tfjs-node");
 
 const sleep = (ms) => {
   return new Promise((resolve) => {
